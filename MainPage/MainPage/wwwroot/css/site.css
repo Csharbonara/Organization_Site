@@ -14,5 +14,20 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background: url(https://c4.wallpaperflare.com/wallpaper/346/806/481/low-poly-abstract-blue-digital-art-wallpaper-preview.jpg) ;/* linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 60px;
+}
+/*Class for glass effects containers*/
+.glass-container {
+    width: 500px;
+    height: 300px;
+    margin: 200px;
+}
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
